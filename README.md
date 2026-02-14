@@ -107,7 +107,7 @@ Located in `paper/paper1-empirical/figures/` (copies) and `results/` (originals)
 
 ### Supplementary figures (8 files)
 
-Located in `paper/paper1-empirical/supplementary/`.
+Located in `results/csv/` and `results/figures/`.
 
 | Figure | File | Content |
 |--------|------|---------|
@@ -124,7 +124,7 @@ Located in `paper/paper1-empirical/supplementary/`.
 
 ## Supplementary Data Files (16 files)
 
-Located in `paper/paper1-empirical/supplementary/`.
+Located in `results/csv/` and `results/figures/`.
 
 | File | Description | Rows |
 |------|-------------|------|

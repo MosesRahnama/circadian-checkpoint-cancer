@@ -113,9 +113,9 @@ def load_gse78220(filepath):
         print("Insufficient genes for analysis")
         return None
 
-    # Extract expression for target genes
-    sample_cols = [c for c in df.columns if c != gene_col]
-    print(f"Samples: {len(sample_cols)}")
+    # Extract expression for target genes (baseline only, exclude on-treatment)
+    sample_cols = [c for c in df.columns if c != gene_col and 'OnTx' not in c and 'on.tx' not in c.lower()]
+    print(f"Baseline samples: {len(sample_cols)} (excluded on-treatment)")
 
     result = pd.DataFrame(index=sample_cols)
     for gene, idx_name in found.items():

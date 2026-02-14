@@ -1,2 +1,2 @@
 dataset,reference,cancer_type,n,cv_pdl1_rho,cv_pdl1_p,direction,replicates_tcga,clock_genes_used
-GSE78220,Hugo et al. 2016 Cell,Melanoma (anti-PD-1),28,-0.2841,0.1429,negative,True,6
+GSE78220,Hugo et al. 2016 Cell,Melanoma (anti-PD-1),27,-0.2833,0.1522,negative,True,6
