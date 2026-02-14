@@ -26,6 +26,7 @@ SCRIPTS = [
     ("sensitivity_immune_residualization.py", "Immune-fraction residualization + purity tertiles"),
     ("composite_observability_index.py",   "Independent observability index"),
     ("run_external_validation.py",         "GSE91061 nivolumab melanoma replication"),
+    ("external_validation_gse78220.py",    "GSE78220 melanoma anti-PD-1 replication"),
     ("convergent_validity_ncv.py",         "nCV convergent validity (Wu & Hogenesch method)"),
     ("thorsson_benchmarking.py",           "Thorsson immune subtype benchmarking + CCD"),
 ]
