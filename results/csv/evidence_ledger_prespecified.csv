@@ -1,0 +1,33 @@
+family,endpoint,p,q,category
+Survival,BRCA | AM_vs_DC,0.5084336799956373,0.7626505199934559,Non-significant
+Survival,BRCA | Q1_vs_Q4,0.3821681038996753,0.7413618106413224,Non-significant
+Survival,COAD | AM_vs_DC,0.3049595205500557,0.7319028493201337,Non-significant
+Survival,COAD | Q1_vs_Q4,0.7102114601476281,0.8397434415359343,Non-significant
+Survival,HNSC | AM_vs_DC,0.128314743991699,0.513258975966796,Non-significant
+Survival,HNSC | Q1_vs_Q4,0.7598856776967718,0.8397434415359343,Non-significant
+Survival,LUAD | AM_vs_DC,0.048949852885497,0.293699117312982,"Nominal (p<0.05, q>=0.05)"
+Survival,LUAD | Q1_vs_Q4,0.7697648214079398,0.8397434415359343,Non-significant
+Survival,LUSC | AM_vs_DC,0.8641250227687962,0.8641250227687962,Non-significant
+Survival,LUSC | Q1_vs_Q4,0.4324610562074381,0.7413618106413224,Non-significant
+Survival,SKCM | AM_vs_DC,0.0011037491225407,0.0132449894704888,FDR-significant
+Survival,SKCM | Q1_vs_Q4,0.2545296972838567,0.7319028493201337,Non-significant
+Robustness,LUAD | AM vs DC (adjusted),0.0113585634688557,0.0454342538754229,FDR-significant
+Robustness,LUAD | AM vs DC + PD-L1/B2M,0.0342924871713475,0.0685849743426951,"Nominal (p<0.05, q>=0.05)"
+Robustness,LUAD | Clock effect (high PD-L1),0.0785387662574513,0.1256620260119221,Non-significant
+Robustness,LUAD | PD-L1 x Clock interaction,0.2401304092387672,0.274434753415734,Non-significant
+Robustness,SKCM | AM vs DC (adjusted),0.0285966405442272,0.0685849743426951,"Nominal (p<0.05, q>=0.05)"
+Robustness,SKCM | AM vs DC + PD-L1/B2M,0.1305081373785171,0.1740108498380227,Non-significant
+Robustness,SKCM | Clock effect (high PD-L1),0.276010107276372,0.276010107276372,Non-significant
+Robustness,SKCM | PD-L1 x Clock interaction,0.0074865077682026,0.0454342538754229,FDR-significant
+Stage (Circadian),BRCA | Kruskal-Wallis,0.4622155536664548,0.5474786169641503,Non-significant
+Stage (Circadian),BRCA | Spearman trend,0.2684897842064065,0.3484654646083148,Non-significant
+Stage (Circadian),COAD | Kruskal-Wallis,0.243348797314578,0.3227016660041143,Non-significant
+Stage (Circadian),COAD | Spearman trend,0.4345917486831856,0.5223664368408734,Non-significant
+Stage (Circadian),HNSC | Kruskal-Wallis,0.0511831177192999,0.0827064948576767,Non-significant
+Stage (Circadian),HNSC | Spearman trend,0.0286745018568308,0.0499755603790481,FDR-significant
+Stage (Circadian),LUAD | Kruskal-Wallis,0.97527664208481,0.9792901262086158,Non-significant
+Stage (Circadian),LUAD | Spearman trend,0.8202263246554723,0.8663862476880313,Non-significant
+Stage (Circadian),LUSC | Kruskal-Wallis,0.549651523272974,0.6267054751336713,Non-significant
+Stage (Circadian),LUSC | Spearman trend,0.8428463915384071,0.8864418945490145,Non-significant
+Stage (Circadian),SKCM | Kruskal-Wallis,0.7567042468774208,0.820407545831913,Non-significant
+Stage (Circadian),SKCM | Spearman trend,0.4718300373751546,0.553492928459316,Non-significant

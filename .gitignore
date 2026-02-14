@@ -1,0 +1,24 @@
+# Manuscript (submitted separately via Research Square)
+paper1_circadian_checkpoint.tex
+paper1_circadian_checkpoint.pdf
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Review / working documents
+OBJECTIVE_ANALYSIS.md
+DeepResearch.md
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

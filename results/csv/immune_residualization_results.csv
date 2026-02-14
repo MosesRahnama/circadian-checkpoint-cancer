@@ -1,0 +1,17 @@
+cohort,analysis,n,rho_raw,p_raw,immune_r2_on_cv,rho_residual,p_residual,covariates_used
+TCGA-SKCM,residualization,461,-0.3705,1.890518652115296e-16,0.1378,-0.1414,0.002335421801042323,"leukocyte_fraction, lymphocyte_infiltration, ifn_gamma_response, purity, stromal_fraction"
+TCGA-LUAD,residualization,444,-0.2767,3.032804213201765e-09,0.0542,-0.1588,0.000784315435350294,"leukocyte_fraction, lymphocyte_infiltration, ifn_gamma_response, purity, stromal_fraction"
+TCGA-BRCA,residualization,1024,-0.2136,4.936424480797097e-12,0.0069,-0.1733,2.378200584662202e-08,"leukocyte_fraction, lymphocyte_infiltration, ifn_gamma_response, purity, stromal_fraction"
+TCGA-HNSC,residualization,486,-0.1146,0.011438155392055742,0.0117,-0.1256,0.0055680409952269675,"leukocyte_fraction, lymphocyte_infiltration, ifn_gamma_response, purity, stromal_fraction"
+TCGA-SKCM,purity_tertile_Low,154,-0.4801,2.9578880507949446e-10,,,,purity_tertile=Low
+TCGA-SKCM,purity_tertile_Mid,153,-0.2438,0.0023927464559192033,,,,purity_tertile=Mid
+TCGA-SKCM,purity_tertile_High,154,-0.2959,0.0001944384057729661,,,,purity_tertile=High
+TCGA-LUAD,purity_tertile_Low,167,-0.2511,0.0010640436501301667,,,,purity_tertile=Low
+TCGA-LUAD,purity_tertile_Mid,167,-0.3853,2.7172947748096703e-07,,,,purity_tertile=Mid
+TCGA-LUAD,purity_tertile_High,167,-0.2039,0.008210986633773154,,,,purity_tertile=High
+TCGA-BRCA,purity_tertile_Low,341,-0.2849,8.632226120612558e-08,,,,purity_tertile=Low
+TCGA-BRCA,purity_tertile_Mid,341,-0.1287,0.017415273906158723,,,,purity_tertile=Mid
+TCGA-BRCA,purity_tertile_High,342,-0.2261,2.425875821735769e-05,,,,purity_tertile=High
+TCGA-HNSC,purity_tertile_Low,162,-0.0962,0.2230829256623996,,,,purity_tertile=Low
+TCGA-HNSC,purity_tertile_Mid,162,-0.049,0.5354771520751784,,,,purity_tertile=Mid
+TCGA-HNSC,purity_tertile_High,163,-0.1535,0.05048800641022618,,,,purity_tertile=High

@@ -1,0 +1,47 @@
+% Auto-generated from the pre-specified endpoint source CSV.
+\begin{table}[p]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.05}
+\caption{Pre-specified endpoint evidence table (audit view). This table lists all pre-specified endpoint families used for inferential claims in this manuscript: 12 survival tests (BH across all survival tests), 8 primary robustness Cox tests (BH across primary robustness tests), and 12 circadian stage tests (q-values from global BH correction in \texttt{master\_fdr\_results.csv}). Categories: FDR-significant ($q<0.05$), Nominal ($p<0.05$ with $q\ge0.05$), and Non-significant.}
+\label{tab:evidence-table}
+\begin{tabular}{@{}llllll@{}}
+\toprule
+Family & Cohort & Endpoint & $p$ & $q$ & Category \\
+\midrule
+Survival & BRCA & AM vs DC & $0.5084$ & $0.7627$ & Non-significant \\
+Survival & BRCA & Q1 vs Q4 & $0.3822$ & $0.7414$ & Non-significant \\
+Survival & COAD & AM vs DC & $0.3050$ & $0.7319$ & Non-significant \\
+Survival & COAD & Q1 vs Q4 & $0.7102$ & $0.8397$ & Non-significant \\
+Survival & HNSC & AM vs DC & $0.1283$ & $0.5133$ & Non-significant \\
+Survival & HNSC & Q1 vs Q4 & $0.7599$ & $0.8397$ & Non-significant \\
+Survival & LUAD & AM vs DC & $0.0489$ & $0.2937$ & Nominal \\
+Survival & LUAD & Q1 vs Q4 & $0.7698$ & $0.8397$ & Non-significant \\
+Survival & LUSC & AM vs DC & $0.8641$ & $0.8641$ & Non-significant \\
+Survival & LUSC & Q1 vs Q4 & $0.4325$ & $0.7414$ & Non-significant \\
+Survival & SKCM & AM vs DC & $0.0011$ & $0.0132$ & FDR-significant \\
+Survival & SKCM & Q1 vs Q4 & $0.2545$ & $0.7319$ & Non-significant \\
+Robustness & LUAD & AM vs DC (adjusted) & $0.0114$ & $0.0454$ & FDR-significant \\
+Robustness & LUAD & AM vs DC + PD-L1/B2M & $0.0343$ & $0.0686$ & Nominal \\
+Robustness & LUAD & Clock effect (high PD-L1) & $0.0785$ & $0.1257$ & Non-significant \\
+Robustness & LUAD & PD-L1 $\times$ Clock interaction & $0.2401$ & $0.2744$ & Non-significant \\
+Robustness & SKCM & AM vs DC (adjusted) & $0.0286$ & $0.0686$ & Nominal \\
+Robustness & SKCM & AM vs DC + PD-L1/B2M & $0.1305$ & $0.1740$ & Non-significant \\
+Robustness & SKCM & Clock effect (high PD-L1) & $0.2760$ & $0.2760$ & Non-significant \\
+Robustness & SKCM & PD-L1 $\times$ Clock interaction & $0.0075$ & $0.0454$ & FDR-significant \\
+Stage (Circadian) & BRCA & Kruskal-Wallis & $0.4622$ & $0.5475$ & Non-significant \\
+Stage (Circadian) & BRCA & Spearman trend & $0.2685$ & $0.3485$ & Non-significant \\
+Stage (Circadian) & COAD & Kruskal-Wallis & $0.2433$ & $0.3227$ & Non-significant \\
+Stage (Circadian) & COAD & Spearman trend & $0.4346$ & $0.5224$ & Non-significant \\
+Stage (Circadian) & HNSC & Kruskal-Wallis & $0.0512$ & $0.0827$ & Non-significant \\
+Stage (Circadian) & HNSC & Spearman trend & $0.0287$ & $0.0500$ & FDR-significant \\
+Stage (Circadian) & LUAD & Kruskal-Wallis & $0.9753$ & $0.9793$ & Non-significant \\
+Stage (Circadian) & LUAD & Spearman trend & $0.8202$ & $0.8664$ & Non-significant \\
+Stage (Circadian) & LUSC & Kruskal-Wallis & $0.5497$ & $0.6267$ & Non-significant \\
+Stage (Circadian) & LUSC & Spearman trend & $0.8428$ & $0.8864$ & Non-significant \\
+Stage (Circadian) & SKCM & Kruskal-Wallis & $0.7567$ & $0.8204$ & Non-significant \\
+Stage (Circadian) & SKCM & Spearman trend & $0.4718$ & $0.5535$ & Non-significant \\
+\bottomrule
+\end{tabular}
+\end{table}
