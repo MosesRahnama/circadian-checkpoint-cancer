@@ -1,0 +1,2 @@
+dataset,reference,cancer_type,n,cv_pdl1_rho,cv_pdl1_p,direction,replicates_tcga
+GSE115821,Auslander et al. 2018,Melanoma (anti-PD-1/anti-CTLA-4),37,-0.2219,0.1868,negative,True

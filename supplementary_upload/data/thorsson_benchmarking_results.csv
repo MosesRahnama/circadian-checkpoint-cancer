@@ -1,0 +1,32 @@
+analysis,test,statistic,p_value,n,note
+am_dc_vs_thorsson,chi_squared,363.81365970734356,1.017290938655979e-73,3179,AM_in_C2=217/406 (53.4%)
+cv_pdl1_within_thorsson,spearman_C1,-0.2994121091267157,4.230959900442492e-27,1240,CV-PD-L1 within C1
+cv_pdl1_within_thorsson,spearman_C2,-0.17816892715614138,3.680678616550396e-10,1220,CV-PD-L1 within C2
+cv_pdl1_within_thorsson,spearman_C3,-0.09838965677388221,0.047295197599338534,407,CV-PD-L1 within C3
+cv_pdl1_within_thorsson,spearman_C4,-0.2100286809964229,0.008716094465640036,155,CV-PD-L1 within C4
+cv_pdl1_within_thorsson,spearman_C6,-0.1274208468860971,0.2235466426412449,93,CV-PD-L1 within C6
+survival_within_C2,logrank,-0.9130817225019434,0.36119956234264905,399,"n_AM=201, n_DC=198, AM better"
+survival_within_C1,logrank,-0.14168046690991357,0.8873324044303375,679,"n_AM=105, n_DC=574, AM better"
+survival_within_C3,logrank,-1.9577690267317984,0.050257121394887055,173,"n_AM=30, n_DC=143, AM better"
+incremental_r2,f_test_TCGA-SKCM,15.8746149626252,0.00013100076439376274,103,"R2_immune=0.2878, R2_full=0.3880, delta_R2=0.1002"
+incremental_r2,f_test_TCGA-LUAD,39.26172759348416,8.5439200159243e-10,465,"R2_immune=0.0854, R2_full=0.1575, delta_R2=0.0721"
+incremental_r2,f_test_TCGA-BRCA,88.21547294106928,1.1102230246251565e-16,1093,"R2_immune=0.2271, R2_full=0.2851, delta_R2=0.0580"
+incremental_r2,f_test_TCGA-HNSC,15.69946343620755,8.487017631397809e-05,514,"R2_immune=0.0813, R2_full=0.1088, delta_R2=0.0275"
+ccd_population,ccd_TCGA-SKCM,0.602271961809369,,103,mean_inter_gene_rho=0.3977
+ccd_population,ccd_TCGA-LUAD,0.74137063896822,,522,mean_inter_gene_rho=0.2586
+ccd_population,ccd_TCGA-BRCA,0.615248226253468,,1095,mean_inter_gene_rho=0.3848
+ccd_population,ccd_TCGA-COAD,0.7080506243468703,,457,mean_inter_gene_rho=0.2919
+ccd_population,ccd_TCGA-HNSC,0.6965611321264985,,515,mean_inter_gene_rho=0.3034
+ccd_population,ccd_TCGA-LUSC,0.7710996011572204,,487,mean_inter_gene_rho=0.2289
+ccd_vs_pdl1,spearman_TCGA-SKCM,-0.35986029960901467,0.000188839005843613,103,CCD_sample vs PD-L1
+ccd_vs_cv,spearman_TCGA-SKCM,0.4140381320564073,1.3769238152017705e-05,103,CCD_sample vs Paper1_CV (convergent validity)
+ccd_vs_pdl1,spearman_TCGA-LUAD,-0.20034298459450453,3.965572708233887e-06,522,CCD_sample vs PD-L1
+ccd_vs_cv,spearman_TCGA-LUAD,0.2665925673481855,6.067319671554106e-10,522,CCD_sample vs Paper1_CV (convergent validity)
+ccd_vs_pdl1,spearman_TCGA-BRCA,-0.04566938706955703,0.13096744902632418,1095,CCD_sample vs PD-L1
+ccd_vs_cv,spearman_TCGA-BRCA,0.4468774146351362,7.221083843524503e-55,1095,CCD_sample vs Paper1_CV (convergent validity)
+ccd_vs_pdl1,spearman_TCGA-COAD,0.061993159724918104,0.18586676872195323,457,CCD_sample vs PD-L1
+ccd_vs_cv,spearman_TCGA-COAD,0.3967082694840645,1.124091676722505e-18,457,CCD_sample vs Paper1_CV (convergent validity)
+ccd_vs_pdl1,spearman_TCGA-HNSC,-0.11308395657828176,0.010220145416242629,515,CCD_sample vs PD-L1
+ccd_vs_cv,spearman_TCGA-HNSC,0.3022576703070407,2.4312040665908067e-12,515,CCD_sample vs Paper1_CV (convergent validity)
+ccd_vs_pdl1,spearman_TCGA-LUSC,-0.1617659782186988,0.00033795146877662507,487,CCD_sample vs PD-L1
+ccd_vs_cv,spearman_TCGA-LUSC,0.46487131311695673,1.7612850452024016e-27,487,CCD_sample vs Paper1_CV (convergent validity)

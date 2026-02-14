@@ -1,7 +1,6 @@
-# Paper 1: Circadian-Checkpoint Coupling Defines Boundary-Failure Subtypes with Survival Associations Across Six Cancer Types
+# Circadian-Checkpoint Coupling Defines Boundary-Failure Subtypes with Survival Associations Across Six Cancer Types
 
 **Author:** Moses Rahnama, Mina Analytics (moses@minaanalytics.com)
-**Repository:** https://github.com/MosesRahnama/cancer-paper-repository
 **Date:** February 2026
 
 ---

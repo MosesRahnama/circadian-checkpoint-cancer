@@ -1,0 +1,2 @@
+dataset,n_pre_treatment,cv_pdl1_rho,cv_pdl1_p,replicates_tcga_direction,n_am,n_dc,am_response_pct,dc_response_pct,fisher_or,fisher_p
+GSE91061 (Riaz et al. 2017),49,-0.2831,0.048748,True,10,18,20.0,27.8,0.65,1.0
