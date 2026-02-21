@@ -1,0 +1,7 @@
+project,test_name,covariates,n_rows,r_partial,t_stat,p_value
+TCGA-SKCM,partial_corr_circ_cv_vs_pdl1_given_controls,"purity,immune_lymphoid,immune_myeloid,immune_leukocyte,stromal_fraction,ifn_gamma_response,tgfb_response",296,-0.2382286984015812,-4.1554904626811915,4.287877719337723e-05
+TCGA-SKCM,partial_corr_ortho_cv_vs_pdl1_given_controls,"purity,immune_lymphoid,immune_myeloid,immune_leukocyte,stromal_fraction,ifn_gamma_response,tgfb_response",296,-0.09547618913123042,-1.624892190541026,0.10528316539738877
+TCGA-SKCM,partial_corr_ortho_cv_vs_pdl1_given_ifng,ifn_gamma_response,301,-0.05378526476585162,-0.9298235224593943,0.3532150542769894
+TCGA-LUAD,partial_corr_circ_cv_vs_pdl1_given_controls,"purity,immune_lymphoid,immune_myeloid,immune_leukocyte,stromal_fraction,ifn_gamma_response,tgfb_response",364,-0.14356673694760566,-2.733320040957131,0.006583879421819052
+TCGA-LUAD,partial_corr_ortho_cv_vs_pdl1_given_controls,"purity,immune_lymphoid,immune_myeloid,immune_leukocyte,stromal_fraction,ifn_gamma_response,tgfb_response",364,-0.2688025488906313,-5.258152812892397,2.519189329469114e-07
+TCGA-LUAD,partial_corr_ortho_cv_vs_pdl1_given_ifng,ifn_gamma_response,385,-0.25215088609418906,-5.092802750522686,5.553297767159538e-07
