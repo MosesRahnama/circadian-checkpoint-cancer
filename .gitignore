@@ -1,6 +1,7 @@
 # Manuscript (submitted separately via Research Square)
 paper1_circadian_checkpoint.tex
 paper1_circadian_checkpoint.pdf
+paper1_circadian_checkpoint.docx
 
 # LaTeX build artifacts
 *.aux
@@ -11,7 +12,7 @@ paper1_circadian_checkpoint.pdf
 *.fls
 *.fdb_latexmk
 
-# Review / working documents
+# Internal review / working documents
 OBJECTIVE_ANALYSIS.md
 DeepResearch.md
 
